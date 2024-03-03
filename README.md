@@ -8,5 +8,5 @@
 
  <a href="https://weslleyarley.github.io/html-css/exercicios/ex002/index.html">Executando o exercício 002</a>
  
- <a href="https://weslleyarley.github.io/html-css/exercicios/ex00/index.html>
+ <a href="https://weslleyarley.github.io/html-css/exercicios/ex003/index.html">Executando o exercício 003 </a>
 
