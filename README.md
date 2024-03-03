@@ -17,4 +17,5 @@ Exercícios
 <a href="https://weslleyarley.github.io/html-css/exercicios/ex009/index.html">Executando o exercício 009</a>
 <br>
 Desafios
-<a href="https://weslleyarley.github.io/html-css/desafios/d001-d009/index.html">Executando Desafios</a>
+<br>
+<a href="https://weslleyarley.github.io/html-css/desafios/d001-d009/index.html">Executando Desafios!</a>
