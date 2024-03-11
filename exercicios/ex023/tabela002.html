@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tabela 02</title>
+    <title>tabelas</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -14,6 +14,7 @@
             text-align: center;
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -32,6 +33,12 @@
         thead, tfoot {
             background-color: rgb(65, 64, 64);
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(65, 64, 64);
         }
        
         .num{
@@ -65,8 +72,8 @@
             <thead>
                 <tr>
                     <th scope="col" style="width: 50px;">Posição</th>
-                    <th scope="col" style="width: 190px;">Estado</th>
-                    <th scope="col" style="width: 40px;">% da pop. total</th>
+                    <th scope="col">Estado</th>
+                    <th scope="col">% da pop. total</th>
                     <th scope="col">População</th>
                     
                 </tr>
@@ -240,8 +247,8 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <th scope="row" style="width: 90px;">Total de Habitantes</th>
-                    <td class="num"><strong>203.078.389</strong></td>
+                    <th scope="row" colspan="2">Total de Habitantes</th>
+                    <td class="num"  colspan="2"><strong>203.078.389</strong></td>
                 </tr>
             </tfoot>
         </table>
